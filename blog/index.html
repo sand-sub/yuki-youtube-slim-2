@@ -2,18 +2,16 @@
 <>
 <head>
     <meta charset='utf-8'>
-    <title>YukiYouTube-slim-2</title>
+    <title>wa-のyukiyoutube</title>
     <script>function getlevel(){
-        if(document.getElementById('word').value == "yuki"){document.cookie = "yuki=True; path=/;";}else{
+        if(document.getElementById('word').value == "yuki"){document.cookie = "wa"=True; path=/;";}else{
         let req = new XMLHttpRequest();
         req.addEventListener("load", function(){document.getElementById('info').textContent = this.responseText});
         req.open("GET", "/answer?q="+document.getElementById('word').value);
         req.send();}
     }</script>
 </head>
-    <h1>yukiと入力しましょう!!<h1>
-    <h2>確認を押して、urlのword/を消したらできます!!<h2>
-    <h3>https://sand2029.github.io/<h3>
+    <h1>これはわーさん専用です!!<h1>
     <input id="word" type="text"></input><input type="button" onClick="getlevel()">確認</input>
     <div id="info">
 </body>
