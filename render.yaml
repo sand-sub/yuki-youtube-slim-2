@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: sand-web
+    name: sand-study
     env: python
     region: Oregon
     plan: free
