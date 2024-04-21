@@ -2,16 +2,16 @@
 <>
 <head>
     <meta charset='utf-8'>
-    <title>wa-のyukiyoutube</title>
+    <title>わーさん専用</title>
     <script>function getlevel(){
-        if(document.getElementById('word').value == "wa"){document.cookie = "wa=True; path=/;";}else{
+        if(document.getElementById('word').value == "yuki"){document.cookie = "yuki=True; path=/;";}else{
         let req = new XMLHttpRequest();
         req.addEventListener("load", function(){document.getElementById('info').textContent = this.responseText});
         req.open("GET", "/answer?q="+document.getElementById('word').value);
         req.send();}
     }</script>
 </head>
-    <h1>これはわーさん専用です!!<h1>
+    わーさん専用!!<br>
     <input id="word" type="text"></input><input type="button" onClick="getlevel()">確認</input>
     <div id="info">
 </body>
