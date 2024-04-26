@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: wa
+    name: sand-slim
     env: python
     region: Oregon
     plan: free
