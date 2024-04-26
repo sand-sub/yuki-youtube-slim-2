@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: nsxtype-slim
+    name: mariokart-2221ruiui
     env: python
     region: Oregon
     plan: free
