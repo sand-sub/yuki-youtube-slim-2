@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: tilyoko-slim
+    name: nsxtype-slim
     env: python
     region: Oregon
     plan: free
