@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: mariokart-2221ruiui
+    name: reipia0441
     env: python
     region: Oregon
     plan: free
