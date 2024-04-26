@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: sand-slim
+    name: tilyoko-slim
     env: python
     region: Oregon
     plan: free
